@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/jsoup-1.7.3-afe2adc134cf028d4ef0c851aae93f0ccbaff1ae.jar"
+        jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/libs/jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da"/>
+    <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-ebbaa304437ff09b57505aab2a99b43a85abf5ba.jar"
+        jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/jcabi-github-0.18-jar-with-dependencies-415b7057e1953f9f641093a39038bfd69cf5b4d1.jar"
+        jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/libs/jcabi-github-0.18-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="73bba794b1833732a72b98321ae452d931dcc90e"/>
+    <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/classes-667149adc40c00e04ac17a8101144cca1be05ff9.jar"
+        jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

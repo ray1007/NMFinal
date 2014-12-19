@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NM_final_test2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="html_source_code">
+    <![CDATA[
+        <!DOCTYPE html>
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/> 
+            </head>
+            <body>
+                <div>
+                    <h3>Model(Slide) 1</h3>
+                    <p class="badge">Some texts</p>
+                    <ul>
+                        <li>1st</li>
+                        <li>2nd</li>
+                        <li>3rd</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Model(Slide) 2</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolololololol</p>
+                </div>
+                <div class="jumbotron">
+                    <h3>Model(Slide) 3</h3>
+                    <p>Some texts</p>
+                    <p>loldgbfdbgdololololol</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 4</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 5</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>192</b> points.</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 6</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>1924</b> points.</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 7</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>19244</b> points.</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 8</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>1662</b> points.</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 9</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>166</b> points.</p>
+                </div>
+                <div>
+                    <h3>Model(Slide) 10</h3>
+                    <p class="label-primary">Some texts</p>
+                    <p>lolol</p>
+                    <p>You scored <b>61662</b> points.</p>
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            </body>
+        </html>
+    ]]>
+    </string>
+
+    <string name="button_Ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="usr_empty_warning">Username must not be empty.</string>
+    <string name="bad_internet_warning">No internet connection. Please Check it.</string>
+    <string name="deploy_text">Deploy with GitHub</string>
+    <string name="deploy_user_name_hint">Username</string>
+    <string name="deploy_password_hint">Password</string>
+</resources>
