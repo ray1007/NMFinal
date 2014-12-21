@@ -9,10 +9,11 @@ NMFinal
 
 筆記：
 更改部分assets/www中，test.js裡的內容
-```document.addEventListener('touchmove', function(e) {
-
+```
+document.addEventListener('touchmove', function(e) {
         if(e.touches.length != 2)
             e.preventDefault();
-    });```
+    });
+```
 這段程式碼讓CordovaWebView只能用雙指做滾動手勢。
 
