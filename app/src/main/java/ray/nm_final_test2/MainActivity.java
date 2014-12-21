@@ -253,6 +253,7 @@ public class MainActivity extends FragmentActivity
                 switch (motionEvent.getActionMasked()) {
                     case MotionEvent.ACTION_POINTER_DOWN:
                         touch_multi = true;
+                        touch_still = false;
                         break;
                     case MotionEvent.ACTION_DOWN:
                         if (touch_quickDown) {
@@ -306,7 +307,10 @@ public class MainActivity extends FragmentActivity
                             touch_longPress = false;
                             break;
                         }
-                        touch_multi = false;
+                        if(touch_multi){
+                            touch_multi = false;
+                            break;
+                        }
                         touch_up = true;
                         touch_quickDown = true;
                         touch_x = x;

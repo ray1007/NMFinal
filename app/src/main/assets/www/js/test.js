@@ -47,7 +47,6 @@ jQuery(document).ready(function($){
     * The following codes makes scrolling listen only to 2-finger touch.
     */
     document.addEventListener('touchmove', function(e) {
-
         if(e.touches.length != 2)
             e.preventDefault();
     });
