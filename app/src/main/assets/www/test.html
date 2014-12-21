@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://demos.jquerymobile.com/1.4.3/panel-external/ -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://demos.jquerymobile.com/1.4.3/panel-external/">--><base href=".">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>External panels</title>
+	<link rel="shortcut icon" href="http://demos.jquerymobile.com/1.4.3/favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.3/css/themes/default/jquery.mobile-1.4.3.min.css">
+	<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.3/_assets/css/jqm-demos.css">
+	<script src="./External panels_files/jquery.js"></script>
+	<script src="./External panels_files/index.js"></script>
+	<script src="./External panels_files/jquery.mobile-1.4.3.min.js"></script>
+	<script id="panel-init">
+		$(function() {
+			$( "body>[data-role='panel']" ).panel();
+		});
+	</script>
+</head>
+<body class="ui-mobile-viewport ui-overlay-a" id="ui-page-top">
+<div data-role="page" class="jqm-demos ui-page ui-page-theme-a ui-page-active" data-quicklinks="true" data-url="/1.4.3/panel-external/" tabindex="0" style="min-height: 700px;"><div data-role="panel" class="jqm-nav-panel jqm-quicklink-panel ui-panel ui-panel-position-right ui-panel-display-overlay ui-panel-closed ui-body-a ui-panel-animate" data-position="right" data-display="overlay" data-theme="a"><div class="ui-panel-inner"><ul data-role="listview" data-inset="false" data-theme="a" data-divider-theme="a" data-icon="false" class="jqm-list ui-listview ui-group-theme-a"><li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-a ui-first-child ui-last-child">Quick Links</li></ul></div></div>
+
+	<div id="header" data-role="header" class="ui-bar" data-fullscreen="true" data-position="fixed">
+        <h1>Mobsite Beta layout</h1>
+        <a id="menubtn" class="none" href="#navpanel">
+            <img src="img/ic_action_list2.png" id="menuimg" >
+        </a>
+    </div>
+
+		<h1>External Panels</h1>
+
+		<p>The panels below are all located outside the page. Panels outside of a page must be initalized manually and will not be handled by auto init. Panels outside of pages will remain in the DOM (unless manually removed) as long as you use Ajax navigation, and can be opened or closed from any page.</p>
+
+		<p>Navigate to page 2 to see this behavior. The HTML document for page 2 doesn't contain panel markup, but you can still open the panels.</p>
+
+		<p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/page-b.html" class="ui-link">Navigate to page 2</a></p>
+
+		<p><strong>Left</strong> panel examples</p>
+		<a href="#navpanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Overlay</a>
+		<a href="http://demos.jquerymobile.com/1.4.3/panel-external/#leftpanel1" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Reveal</a>
+		<a href="http://demos.jquerymobile.com/1.4.3/panel-external/#leftpanel2" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Push</a>
+
+		<p><strong>Right</strong> panel examples</p>
+		<a href="http://demos.jquerymobile.com/1.4.3/panel-external/#rightpanel3" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Overlay</a>
+		<a href="http://demos.jquerymobile.com/1.4.3/panel-external/#rightpanel1" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Reveal</a>
+		<a href="http://demos.jquerymobile.com/1.4.3/panel-external/#rightpanel2" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Push</a>
+
+	</div></div><!-- /header -->
+
+	<!-- /content -->
+
+</div><!-- /page -->
+
+	<div data-role="panel" id="leftpanel1" data-position="left" data-display="reveal" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-body-a ui-panel-animate ui-panel-closed">
+
+        <div class="ui-panel-inner"><h3>Left Panel: Reveal</h3><p>This panel is positioned on the left with the reveal display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /leftpanel1 -->
+
+	<!-- leftpanel2  -->
+	<div data-role="panel" id="leftpanel2" data-position="left" data-display="push" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-push ui-body-a ui-panel-animate ui-panel-closed">
+
+        <div class="ui-panel-inner"><h3>Left Panel: Push</h3><p>This panel is positioned on the left with the push display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /leftpanel2 -->
+
+	<!-- leftpanel3  -->
+	<div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-closed">
+
+        <div class="ui-panel-inner"><h3>Left Panel: Overlay</h3><p>This panel is positioned on the left with the overlay display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /leftpanel3 -->
+
+	<!-- rightpanel1  -->
+	<div data-role="panel" id="rightpanel1" data-position="right" data-display="reveal" data-theme="b" class="ui-panel ui-panel-position-right ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+        <div class="ui-panel-inner"><h3>Right Panel: Reveal</h3><p>This panel is positioned on the right with the reveal display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /rightpanel1 -->
+
+	<!-- rightpanel2  -->
+	<div data-role="panel" id="rightpanel2" data-position="right" data-display="push" data-theme="b" class="ui-panel ui-panel-position-right ui-panel-display-push ui-panel-closed ui-body-b ui-panel-animate">
+
+        <div class="ui-panel-inner"><h3>Right Panel: Push</h3><p>This panel is positioned on the right with the push display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /rightpanel2 -->
+
+	<!-- rightpanel3  -->
+	<div data-role="panel" id="rightpanel3" data-position="right" data-display="overlay" data-theme="b" class="ui-panel ui-panel-position-right ui-panel-display-overlay ui-panel-closed ui-body-b ui-panel-animate">
+
+        <div class="ui-panel-inner"><h3>Right Panel: Overlay</h3><p>This panel is positioned on the right with the overlay display mode. The panel markup is <em>after</em> the header, content and footer in the source order.</p><p>To close, click off the panel, swipe left or right, hit the Esc key, or use the button below:</p><a href="http://demos.jquerymobile.com/1.4.3/panel-external/#demo-links" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-btn-inline">Close panel</a></div>
+        
+        
+        
+
+	</div><!-- /rightpanel3 -->
+
+	<div data-role="panel" id="navpanel" data-theme="a" data-display="overlay" data-position="left">
+        <div data-role="controlgroup" data-corners="false">
+            <a  data-role="button" class="testbutton"><img src="img/ic_action_add.png" id="toolimg"></a>
+            <a  data-role="button" class="testbutton"><img src="img/ic_action_folder_open.png" id="toolimg"></a>
+            <a  data-role="button" class="testbutton"><img src="img/ic_action_gear.png" id="toolimg"></a>
+            <a  data-role="button" class="testbutton"><img src="img/ic_action_export.png" id="toolimg"></a>
+            <a  data-role="button" class="testbutton"><img src="img/ic_action_info.png" id="toolimg"></a>
+        </div>
+    </div>
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div><div class="ui-panel-dismiss"></div></body></html>

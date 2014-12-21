@@ -4,16 +4,27 @@ package ray.nm_final_test2;
  * Created by Ray on 2014/12/4.
  */
 
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.ClipData;
+import android.content.ClipDescription;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.util.Log;
+import android.view.View;
+import android.webkit.WebView;
 import android.widget.Toast;
 import android.webkit.JavascriptInterface;
 
 public class WebInterface {
     Context _context;
-    public WebInterface(Context c){ _context = c; Log.v("WebInterface", "constructed");}
+    MainActivity _activity;
+
+    public WebInterface(Context c, MainActivity a){
+        _context = c;
+        _activity = a;
+        Log.v("WebInterface", "constructed");
+    }
 
     @JavascriptInterface
     public void showToast(String msg){
@@ -36,4 +47,8 @@ public class WebInterface {
                 .show();
     }
 
+    @JavascriptInterface
+    public void getSelectedHTMLCode(String htmlCode){
+        _activity.setSelectedHTML(htmlCode);
+    }
 }

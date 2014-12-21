@@ -24,4 +24,5 @@ dependencies {
     compile files('libs/jsoup-1.7.3.jar')
     compile 'com.android.support:support-v4:20.0.+'
     compile files('libs/jcabi-github-0.18-jar-with-dependencies.jar')
+    compile files('libs/cordova-2.9.1.jar')
 }

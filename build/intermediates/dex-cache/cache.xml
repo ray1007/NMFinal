@@ -14,6 +14,12 @@
         revision="20.0.0"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
+        dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/cordova-2.9.1-f96ebe0f4354585d776dd6713762f0271ae1d50e.jar"
+        jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/libs/cordova-2.9.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a1efba49f8abec406e8747250ba62be8e8b83bf0"/>
+    <item
         dex="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-ebbaa304437ff09b57505aab2a99b43a85abf5ba.jar"
         jar="/Users/Ray/AndroidStudioProjects/NM_final_test2/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
