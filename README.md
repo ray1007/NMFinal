@@ -17,3 +17,8 @@ document.addEventListener('touchmove', function(e) {
 ```
 這段程式碼讓CordovaWebView只能用雙指做滾動手勢。
 
+12/29
+
+- 讓雙指的手勢都被設成要重複一定次數才觸發。
+- 長按時如果有其他手指加入不會有影響。
+- 單指滾動頁面未取消，已用 preventDefault() 解決。
