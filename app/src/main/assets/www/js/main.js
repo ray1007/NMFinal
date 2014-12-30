@@ -116,17 +116,18 @@ function setListeners(responses) {
     };
     
     var onTouchMove = function(event){
-        event.preventDefault();
         if(event.touches.length > 2)
             return;
         touch_still = false;
         var touch = event.touches.item(0);
         
         if(touch_longPress){
+            event.preventDefault();
             responses.onLongPressMove(event.touches.item(0).pageX, event.touches.item(0).pageY);
         } else {
             // handles "2 finger scroll"
             if(touch_2Finger && !touch_2FingerMoved){
+                event.preventDefault();
                 var secondTouch = event.touches.item(1);
                 if(secondTouch == null)
                     return;
