@@ -1,5 +1,5 @@
 // gestureListener
-(function(responses){
+function setGestureListener(responses){
    console.log("gestureListner starts");
 
    /*******************
@@ -192,4 +192,4 @@
    myListener.addEventListener('touchstart', onTouchStart, false);
    myListener.addEventListener('touchmove', onTouchMove, false);
    myListener.addEventListener('touchend', onTouchEnd, false);
-})();
+}
